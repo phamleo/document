@@ -20,3 +20,4 @@ THEME AND MODULES CONFIGURATION
 SUPPORT
 	- If you have any problem with this theme, please send us a message via Addons PrestaShop contact form
 	- Our support team will respond you within 24 working hours.
+	- Link document : https://phamleo.github.io/document/babi_babystore/

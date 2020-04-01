@@ -1,0 +1,42 @@
+<h1>Install full package</h1>
+<p>Using package <strong>babi_theme-full-package_1.7.x.x.x.zip</strong></p>
+<div>
+	<ul style="list-style-type: none;">
+		<li><strong>Step 1 :</strong> Download and use full package you want to install, then extract and upload all content from full package to your server.</li>
+		<li><strong>Step 2 :</strong> Create your database in your host under a name <strong>YOUR_DATABASE_NAME</strong>.</li>
+		<li><strong>Step 3 :</strong>   Find <strong>1_sample-database.sql</strong> and import the sql file to your database you created.</li>
+		<li><strong>Step 4 :</strong>   Find <strong>2_update-database.sql</strong>, edit the last three lines and import the sql file to your database.
+			<ul>
+              <li>UPDATE ps_shop_url SET `domain`='YOUR_DOMAIN';</li>
+              <li>UPDATE ps_shop_url SET `domain_ssl`='YOUR_DOMAIN';</li>
+              <li>UPDATE ps_shop_url SET `physical_uri`='/YOUR_BASE_URI/';</li>
+          </ul>
+		   With :
+		   <ul>
+			<li>YOUR_DOMAIN : is the name of your domain (NOTE : don't contain <strong>http://</strong> or <strong>https://</strong>). <br>Example <strong>your-domain.com</strong>.</li>
+			<li>/YOUR_BASE_URI/ : path linked to sub folder in your site in your server. <br>For example, sub folder created to contain your site is <strong>new-prestashop</strong>, <strong>/YOUR_BASE_URI/</strong> is <strong>/new-prestashop/</strong>. <br>On the other hand, if you don't create sub folder to contain your site, you will use : <strong>UPDATE ps_shop_url SET `physical_uri`='/';</strong>
+			</li>
+		  </ul>
+		</li>
+		<li><strong>Step 5 :</strong> Go to  <strong> app/config/parameters.php</strong>  and configure this file with infomation in  
+            <ul>
+             <li>'database_host' => 'Database Host' </li>
+		     <li>'database_port' => '' </li>
+		     <li>'database_name' => 'Name Database'</li>
+		     <li>'database_user' => 'Name use'</li>
+		     <li>'database_password' => 'passwords'</li>
+		     <li>'database_prefix' => 'ps_'</li>
+            </ul>
+		</li>
+		<li><strong>Step 6 :</strong> -  Access front-end of your site, if you can't access it, please go to menu <strong>Shop Parameters > Traffic & SEO</strong> in back-end.
+			<ul> 
+			  <li> The link to access back-end <strong> /BASE_URI/psadmin </strong> (BASE_URI : the link to front-end your site)</li>
+			  <li> Email address:<strong> demo@presthemes.com</strong></li>
+			  <li> Password: <strong>presthemes</strong>.</li>
+			 <li>You can rename the directory <strong>psadmin</strong> to change the admin panel&rsquo;s URL.</li>
+			<p> - Then go to <strong>"SET UP URLS"</strong>, click on <strong>"SAVE"</strong> to recreate file <strong>".htaccess"</strong> automatically.</p>
+			</ul>
+		</li>
+			<li><strong>Step 7 :</strong> Refesh your front-end, the installation process finishes.</li>
+		</ul>
+	</div>

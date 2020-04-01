@@ -1,0 +1,105 @@
+<section id="babi_megamenu">
+	<h1>Manage Module Megamenu</h1>
+	<div class="info">
+		This module displays megamenu in frontend. It enables you to config menu with <strong>multi row, multi column</strong>. Content in each column can be one of following types:
+		<ul>
+			<li>Category content : Columns in dropdown display <strong>tree categories</strong> which are configed</li>
+			<li>Product content : Columns in dropdown display <strong>list products</strong> which are configed</li>
+			<li>Static content : Columns in dropdown display <strong>static content (html content)</strong></li>
+			<li>Manufacturer content : Columns in dropdown display <strong>list manufacture</strong></li>
+			<li>Information content : Columns in dropdown display <strong>list link cms</strong></li>
+		</ul>
+	</div>
+	<p>- In back-end, go to Modules > Modules and find module "Babi Menu "</p>
+	<img src="images/general/babi_megamenu_config.png" />
+	<div>- Interface of module in back-end, the main screen of module displays :
+		<ol>
+			<li>Icon add new menu item</li>
+			<li>List of menu items</li>
+			<li>Form configuration for menu displayed in device (ipad)</li>
+		</ol>
+	</div>
+	<img src="images/general/babi_megamenu_interface_backend.png" />
+	<!-- <p>- Megamenu displays in frontend</p>
+	<p> + In PC</p>
+	<img src="images/megamenu_a.png" />
+	<p> + In Ipad</p>
+	<img src="images/megamenu_c.png" />
+	<p> + In Mobile</p>
+	<img src="images/megamenu_b.png" /> -->
+</section>
+
+<section id="create_menu">
+		<div class="info">- To config megamenu (Module Cs Megamenu) by 4 steps:
+			<ol>
+				<li>Creating menus parent - creating menus item</li>
+				<li>Creating dropdowns for each menu item - creating row item</li>
+				<li>Creating content for dropdown - creating column item</li>
+				<li>Config display of module on ipad device</li>
+			</ol>
+		</div>
+		<h2>1. Creating menus parent - creating menus item</h2>
+		<p>- Click on <strong>icon add new menu item</strong> from the main screen of module and then view the interface of creating new menu item.</p>
+		<p>- The interface of creating new menu item. Information is required to enter for menu item.</p>
+		<ul>
+			<li>Title : name to display for menu item (not leave it empty)</li>
+			<li>Link of title : link to menu item</li>
+			<li>Icon : select icon for menu item</li>
+			<li>Label text : add label text for menu item . EX : hot, new, sale, ...</li>
+			<li>Label color background: set background color for label</li>
+			<li>Columns of dropdown : select column for menu item from 5 to 1</li>
+		</ul>
+		<img src="images/general/babi_megamenu_create_menu_item.png" />
+		<p>- Click on <strong>Save</strong> to create menu item</p>
+</section>
+
+<section id="create_row">
+		<h2>2. Creating dropdowns for each menu item - creating row items</h2>
+		<p class="warning">- Can only create row items after created menu item. <br/>
+		- With each menu item can have many row items
+		</p>
+		<p>- Form list of menu item, click on button <strong>View detail</strong> to create dropdown for menu item that you want to add dropdown </p>
+		<img src="images/general/babi_megamenu_view_detail.png" />
+		<p>- Then, click on button <strong>Add row</strong> to view the interface of adding new row</p>
+		<img src="images/general/babi_megamenu_add_row.png" />
+		<p>- In that interface, enter information for row item</p>
+		<ul>
+			<li>Height : Setting height for row item. Using height row incase, you want to set background  or fixed height for row item. Set value at 0 or leave it empty to set "auto" for height.</li>
+			<li>Background color : Setting background color for row item</li>
+			<li>Background image : Setting background image for row item</li>
+		</ul>
+		<img src="images/general/babi_megamenu_row_infor.png" />
+		<p>- Click on <strong>Save</strong> to create row item</p>
+</section>
+
+<section id="create_column">
+		<h2>3. Creating content for dropdown - creating column item</h2>
+		<p class="warning">- Only can create column items after creating row item. <br/>
+		- Each row item can have many column items.
+		</p>
+		<p>- Form list of menu item, click on button <strong>View detail</strong> to create dropdown for menu item that you want to add dropdown </p>
+		<p>- Then, click on button <strong>Add column for row</strong> and view the interface of adding new column</p>
+		<img src="images/general/babi_megamenu_add_column.png" />
+		<p>- In that interface, enter information for column item and for column:</p>
+		<ul>
+			<li>Number of columns : Setting number for column from 1 to 5.</li>
+			<li>Tyle of column : Select content for column, you can select :
+				<ol>
+					<li>category</li>
+					<li>product</li>
+					<li>static block</li>
+					<li>manufacture</li>
+					<li>information</li>
+				</ol>
+			</li>
+			<li>Part content config for each type column : With each column type, it will have content config different.</li>
+		</ul>
+		<img src="images/general/babi_megamenu_column_infor.png" />
+		<p>- Click <strong>Save</strong> to create row item</p>
+</section>
+
+<section id="config_device">
+	<h2>4. Config display of module on ipad device</h2>
+	<p>Config number of items displayed on ipad horizontal and ipad vertical</p>
+	<img src="images/general/babi_megamenu_config_device.png" />
+</section>
