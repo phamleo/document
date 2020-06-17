@@ -1,0 +1,1071 @@
+<!doctype html>
+<!--[if IE 6 ]>
+<html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]>
+<html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]>
+<html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+
+    <title>Electronics Theme Documentation</title>
+
+    <meta name="description" content="Thank you for purchasing this theme. If you have any question not included in this help file, please feel free to raise it on the forum here. Thanks so much!
+
+This documentation was only made by the Documenter (except the images)">
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700' rel='stylesheet'
+          type='text/css'>
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,300,400italic,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css" media="all">
+
+    <link rel="shortcut icon" type="image/x-icon" href="assets/media/favicon.ico"/>
+
+    <script src="js/jquery.1.6.4.js"></script>
+    <script src="js/cufon.js"></script>
+    <script src="js/font.js"></script>
+    <script src="js/jquery.scrollTo-1.4.2-min.js"></script>
+    <script src="js/jquery.easing.js"></script>
+    <script src="js/sticky.js"></script>
+
+    <link rel="stylesheet" href="css/shDocumenter.css" media="screen">
+    <script src="js/shCore.js"></script>
+    <script src="js/shBrushAS3.js"></script>
+    <script src="js/shBrushCss.js"></script>
+    <script src="js/shBrushXml.js"></script>
+    <script src="js/shBrushJScript.js"></script>
+    <script src="js/shBrushPhp.js"></script>
+    <script src="js/shBrushPlain.js"></script>
+    <script>SyntaxHighlighter.defaults['toolbar'] = false;
+    SyntaxHighlighter.all();</script>
+
+    <script>document.createElement('section');
+    var duration = 450, easing = 'easeOutExpo';</script>
+    <script src="js/script.js"></script>
+
+</head>
+<body>
+<div id="documenter_container">
+    <div id="documenter_menu">
+        <div class="logo">
+            <img src="assets/logo_shop.jpg"/>
+        </div>
+        <div class="documenter_menu_content">
+            <ul id="documenter_nav">
+                <li class="active parent">
+                    <a href="#general_info">General Information</a>
+                    <ul class="sub_menu">
+                        <li><a href="#introduction">Introduction</a></li>
+                        <li><a href="#requirements_compatibility">Requirements & Compatibility</a></li>
+                        <li><a href="#theme_features">Theme features</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#install_full_package">Install FULL PACKAGE</a>
+                </li>
+                <li class="parent">
+                    <a href="#install_theme_package">Install THEME PACKAGE</a>
+                    <ul class="sub_menu">
+                        <li><a href="#install_theme_package_installator">Install theme package with installator</a></li>
+                        <li><a href="#notes_install_theme">Notes after install theme</a></li>
+                    </ul>
+                </li>
+                <li class="parent">
+                    <a href="#config_theme">Config important functions for theme</a>
+                    <ul class="sub_menu">
+                        <!-- <li><a href="#manage_layout">Manage layout</a></li> -->
+                        <li><a href="#column">Column of page</a></li>
+                        <li><a href="#image_size">Type image and image size</a></li>
+                        <li><a href="#translation">Translation</a></li>
+                        <!-- <li><a href="#mobile_template">Mobile template</a></li> -->
+                    </ul>
+                </li>
+                <li><a href="#extension">Extension</a></li>
+                <li class="parent">
+                    <a href="#config_module">Config important modules</a>
+                    <ul class="sub_menu">
+                        <li><a href="#cs_configurator">Config Footer And Header</a></li>
+                        <li><a href="#cs_product_tab">CS Product Tab</a></li>
+                        <li><a href="#cs_product_feature">CS Product Feature</a></li>
+                        <li><a href="#cs_category">CS Category</a></li>
+                    </ul>
+                </li>
+                <li class="parent">
+                    <a href="#manage_blog">Manage blog</a>
+                    <ul class="sub_menu">
+                        <li><a href="#manage_category">Create blog category</a></li>
+                        <li><a href="#manage_post">Create blog post</a></li>
+                        <li><a href="#manage_tag">Manage blog tag and blog comment</a></li>
+                        <li><a href="#config_blog">Config blog option</a></li>
+                    </ul>
+                </li>
+                <li class="parent"><a href="#cs_megamenu">Manage megamenu</a>
+                    <ul class="sub_menu">
+                        <li><a href="#create_menu">Creating menus parent</a></li>
+                        <li><a href="#create_row">Creating dropdowns</a></li>
+                        <li><a href="#create_column">Creating content for dropdown</a></li>
+                        <li><a href="#config_device">Config for device</a></li>
+                    </ul>
+                </li>
+                <li><a href="#cs_layer">Manage main slideshow</a></li>
+                <li>
+                    <a href="#theme_support">Theme support</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="documenter_content">
+        <section id="general_info"></section>
+        <section id="introduction">
+            <h1>Introduction</h1>
+            <br/>
+            <h3>Electronics Prestashop Theme</h3>
+            <p>Created by: <strong>BabiThemes</strong></p>
+            <p>
+                Thank you for purchasing our theme. If you have any question, please contact us via <strong><a href="https://babithemes.freshdesk.com/">https://babithemes.freshdesk.com</a></strong> to be the best support.
+            </p>
+            <hr/>
+            <p>
+                In this user guide, you will find all neccessary information to upload your site and make it run well:
+                including theme installation and setup, usage of different post types, and page templates.
+            </p>
+
+            <p>
+                Also note that this is combined manual for our multipurpose themes that shares similar back- and
+                front-end features. Therefore, some screenshots, interfaces and features may slightly different from
+                actual ones displayed in theme you've purchased.
+            </p>
+        </section>
+
+        <section id="requirements_compatibility">
+            <h1>Requirements & Compatibility</h1>
+            <br/>
+            <p>
+                Our themes are compatible with the Prestashop <strong>versions 1.7.0</strong> or later ( <strong>PHP
+                5</strong> or later, and <strong>mysql 5</strong> or later).
+            </p>
+
+            <p>
+                Most Browsers enabled JavaScript will work without issues. They are designed and optimized for desktops,
+                tablets and smartphones.
+            </p>
+
+            <p>
+                <strong>Currently we are testing themes in:</strong>
+            </p>
+            <ul>
+                <li>
+                    Google Chrome (Mac and PC)
+                </li>
+                <li>
+                    Firefox (Mac and PC)
+                </li>
+                <li>
+                    Internet Explorer 10 and later
+                </li>
+                <li>
+                    Safari (Mac and PC)
+                </li>
+            </ul>
+
+            <p>
+                <strong>IMPORTANT!!!</strong>
+            </p>
+            <ul>
+                <li>
+                    Make sure that your web host has the minimum requirements to run Prestashop
+                </li>
+                <li>
+                    Always make sure they are running on the latest version of Prestashop
+                </li>
+                <li>
+                    You can download the latest version released <strong>Prestashop</strong>
+                    on official Prestashop website
+                </li>
+                <li>
+                    Always create secured passwords FTP and Database
+                </li>
+            </ul>
+
+            <p>
+                <strong>NOTE!!!</strong>
+            </p>
+            <ul>
+                <li>
+                    Prestashop Eletronics can run well in version 1.7.6 So should consider before upgrade higher
+                    version.
+                </li>
+                <li>
+                    If you want upgrade your site to Prestashop version 1.7.6, Please backup your database before
+                    upgrade. Because script update of Prestashop version 1.7.6 has an error that it deletes all your
+                    database and make your site empty. After run script update please import old database again.
+                </li>
+            </ul>
+        </section>
+
+        <section id="theme_features">
+            <h1>Theme features</h1>
+            <ol>
+                <li><h3>Responsive</h3>
+                    <p>
+                        Market Shop theme contains features to help customize the interface of your website easily
+                        without requiring to customize html, css. The theme runs on multiple devices. Website will
+                        automatically adjust the appropriate interface to adapt many different devices.
+                    </p>
+                    <img src="./images/general/responsive.png">
+                </li>
+                <li>
+                    <h3>Layout</h3>
+                    <ul>
+                        <li>Wide/Boxed Layout for page
+                            <p> - In boxed layout mode, support to set width of content page. For example: 960px</p>
+                            <p> - In wide layout mode, support to set wide/boxed layout for header and footer.
+                            </p>
+                        </li>
+                        <li>In wide mode header support
+                            <p> - Wide mode for content and background</p>
+                            <p> - Wide mode for only background.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Multi header and multi footer</h3>
+                    <ul>
+                        <li>Each homepage has a specified style for header</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Multi footer</h3>
+                    <ul>
+                        <li>Each homepage has a specified style for footer</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h3>Customize number of columns</h3>
+                    <p>Customize number of columns for pages in theme.</p>
+                </li>
+
+                <li>
+                    <h3>HTML5/CSS3, Bootstrap</h3>
+                    <p>The theme uses HTML5/CSS3, bootstrap framework.</p>
+                </li>
+
+                <li>
+                    <h3>Mega menu</h3>
+                    <p>Configuaration menu is widely various, not simply display the categories as the default of
+                        Prestashop's menu.</p>
+                </li>
+
+                <li>
+                    <h3>Layer slider</h3>
+                    <p>Slider supports to be responsive on different devices and displays with many captions.</p>
+                </li>
+
+                <li>
+                    <h3>Blog system</h3>
+                    <p>Management for the list of posts by categories. Otherwise, blog supplies 4 blocks : category (for
+                        post), lastest post, current comment and tag cloud.</p>
+                </li>
+
+                <li>
+                    <h3>Static content</h3>
+                    <p>Followed by customized static content (banner and custom link, custom html text …) in many
+                        position.</p>
+                </li>
+
+                <li>
+                    <h3>Quick Search Block</h3>
+                    <ul>
+                        <li>Support ajax search and instant search</li>
+                        <li>Result display : product list with jquery carouFredSel and large number of products with
+                            detail information.
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h3>Product blocks on homepage are shown with many displays</h3>
+                    <p>Single product block of modules below displays with many layouts. Blocks support to change
+                        displays easily.</p>
+                    <ul>
+                        <li>Module CS Block Best Sellers Product</li>
+                    </ul>
+                    <p>Configurations can set to change layout</p>
+                    <ul>
+                        <li>Enable/Disable slider</li>
+                        <li>Number of columns (number of products on a line)</li>
+                        <li>Number of rows</li>
+                        <li>Enable/Disable big product</li>
+                        <li>Enable/Disable icon of slider</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h3>Module Cs Home Tab</h3>
+                    <p> Display many blocks for single product with tab</p>
+                </li>
+
+                <li>
+                    <h3>Module CS Block Best Sellers Product</h3>
+                    <ul>
+                        <li>Display post featured in post category HOME</li>
+                        <li>Diplay products by categories</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h3>Category page features</h3>
+                    <ul>
+                        <li>Enable/Disable image, description of category</li>
+                        <li>Config Number of products on a line</li>
+                        <li>Enable/Disable list of grid icon</li>
+                        <li>Config default display as GRID or LIST</li>
+                        <li>Enable/Disable sub categories</li>
+                        <li>Enable/Disable slider for sub categories</li>
+                        <li>Config image for sub category items : In page category, list of sub categories displays
+                            image of sub categories or product image of this sup categories
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h3>Product page features</h3>
+                    <ul>
+                        <li>Product information template : accordion or row (none-accordion)</li>
+                        <li>Social icon network</li>
+                        <li>Product Review</li>
+                        <li>Product Comment</li>
+                        <li>Product Accessories</li>
+                        <li>Zoom and Light box product thumbnail</li>
+                        <li>Products in the same category</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h3>And many other features supported in this theme</h3>
+                    <ul>
+                        <li>Easy install theme by module theme importer of prestashop and install full site</li>
+                        <li>Support custom color and font for important elements of site</li>
+                        <li>Disable/enable smooth scrolling</li>
+                        <li>Disable/enable scroll to top button</li>
+                        <li>Disable/enable sticky menu</li>
+                        <li>Disable/enable quick view button</li>
+                        <li>Using Isotope jquery – plugin for magical layouts. Support disable/enable Appear animation
+                        </li>
+                        <li>Multi language with fully translation</li>
+                        <li>Multi currencies</li>
+                        <li>Google Rich snippet</li>
+                        <li>SEO URL</li>
+                        <li>Support CCC</li>
+                        <li>Support one page checkout or standard checkout</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Support RTL</h3>
+                    <ul>
+                        <li>
+                            <p>Support language is written from right to left</p>
+                            <img src="images/general/rtl1.png" style="width:182px">
+                            <img src="images/general/rtl2.png" style="width:182px">
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+
+        </section>
+
+        <section id="install_full_package">
+            <h1>Install full package
+            </h1>
+
+            <p> - Using package <strong>ps_electronics-full-package_1.7.1.1_rxxx.zip</strong></p>
+            <div>
+                <h3>Process install full package</h3>
+                <ol>
+                    <li>Step 1 : Download and use full package you want to install, then extract and upload all content
+                        from full package to your server.
+                    </li>
+                    <li>Step 2 : Create your database in your host under a name <strong>YOUR_DATABASE_NAME</strong>.
+                    </li>
+                    <li>Step 3 : Find <strong>1_sample-database.sql</strong> and import the sql file to your database
+                        you created.
+                    </li>
+                    <li>Step 4 : Find <strong>2_update-database.sql</strong>, edit the last three lines and import the
+                        sql file to your database.
+                        <ul>
+                            <li>UPDATE ps_shop_url SET `domain`='YOUR_DOMAIN';</li>
+                            <li>UPDATE ps_shop_url SET `domain_ssl`='YOUR_DOMAIN';</li>
+                            <li>UPDATE ps_shop_url SET `physical_uri`='/YOUR_BASE_URI/';</li>
+                        </ul>
+                        With :
+                        <ul>
+                            <li>YOUR_DOMAIN : is the name of your domain (NOTE : don't contain <strong>http://</strong>
+                                or <strong>https://</strong>). <br>Example <strong>your-domain.com</strong>.
+                            </li>
+                            <li>/YOUR_BASE_URI/ : path linked to sub folder in your site in your server. <br>For
+                                example, sub folder created to contain your site is <strong>new-prestashop</strong>,
+                                <strong>/YOUR_BASE_URI/</strong> is <strong>/new-prestashop/</strong>. <br>On the other
+                                hand, if you don't create sub folder to contain your site, you will use : <strong>UPDATE
+                                    ps_shop_url SET `physical_uri`='/';</strong>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>Step 5 : Go to <strong> app/config/parameters.php</strong> and configure this file with
+                        infomation in
+                        <ul>
+                            <li>'database_host' => 'Name Database Host'</li>
+                            <li>'database_port' => ''</li>
+                            <li>'database_name' => 'Name Database'</li>
+                            <li>'database_user' => 'Name use'</li>
+                            <li>'database_password' => ''</li>
+                            <li>'database_prefix' => 'ps_'</li>
+                        </ul>
+                    </li>
+                    <li>Step 6 : - Access front-end of your site, if you can't access it, please go to menu <strong> Shop Parameters
+                        > Traffic & SEO </strong> in back-end.
+                        <ul>
+                            <li> The link to access back-end <strong> /BASE_URI/psadmin </strong> (BASE_URI : the link
+                                to front-end your site)
+                            </li>
+                            <li> Email address:<strong> demo@presthemes.com</strong></li>
+                            <li> Password: <strong>presthemes</strong>.</li>
+                            <li>You can rename the directory <strong>psadmin</strong> to change the admin panel&rsquo;s
+                                URL.
+                            </li>
+                            <p> - Then go to <strong>"SET UP URLS"</strong>, click on <strong>"SAVE"</strong> to
+                                recreate file <strong>".htaccess"</strong> automatically.</p>
+                        </ul>
+                    </li>
+                    <li>Step 7 : Refesh your front-end, the installation process finishes.</li>
+                </ol>
+        </section>
+
+        <section id="install_theme_package">
+        </section>
+
+        <section id="install_theme_package_installator">
+            <h1>Installation theme package with installator</h1>
+            <p> - Using package <strong>Electronics Shop-theme-package_1.7.1.1_rxxx.zip</strong></p>
+
+            <h3>Process install theme package package with installtor</h3>
+            <ol>
+                <li> Go to <strong>DESIGN > THEME & LOGO</strong>, select <strong>Add new theme</strong><br/>
+                    <img src="images/general/add_theme.png"/>
+                </li>
+                <li> In section <strong>IMPORT FROM YOUR COMPUTER</strong>, select your theme package and click on
+                    <strong>Save</strong><br/>
+                    <img src="images/general/select_theme.png"/>
+                </li>
+                <li>After, go to <strong>"SELECT A THEME FOR SHOP"</strong>, click on <strong>"Use this theme"</strong>
+                    as described in image below<br/>
+                    <img src="images/general/using_theme.png"/>
+                </li>
+                <li>Refesh your site in front-end. Installation process for theme finishes.
+                </li>
+            </ol>
+        </section>
+        <section id="notes_install_theme">
+            <h1>Notes after install theme</h1>
+            <p>To make sure this theme will work well, you need check:</p>
+            <ol>
+                <li>- See result in front-end, if the result is not the same as demo, go to Advanced Parameters >
+                    Performance, click on "Clear cache" on the toolbar to Clear Smarty cache.
+                    <img src="images/general/disable_cache.png"/>
+                </li>
+                <li>To use this theme, module "csmanagement" must be installed. This module includes css, js file and
+                    config functions for theme, therefore it must be installed.
+                </li>
+                <li> Go to back-end, access <strong>Modules > Modules</strong> and
+                    check the module list authorized by Codespot is whether installed (if module don't install, install
+                    it).
+                    <img src="images/general/module_author.png"/>
+                </li>
+                <li> After installing modules, you need to sort out position for them so that they can be displayed as
+                    design of theme. Go to <strong>Module > Position</strong> and sort out position in the same hook as
+                    image below.
+                    <p>Position modules of hooks in back end</p>
+                    <img src="images/position_home.png"/>
+                    <img src="images/position_leftcolumn.png"/>
+                    <img src="images/position_leftcolumnblog.png"/>
+                    <img src="images/position_footer_1.png"/>
+                    <img src="images/position_footer_2.png"/>
+                    <img src="images/position_footer_3.png"/>
+                </li>
+            </ol>
+        </section>
+
+        <section id="config_theme">
+        </section>
+
+        <section id="column">
+            <h1>Configuring Columns</h1>
+            <p class="info">As for Prestashop version 1.6: You can configure the column for each page.</p>
+            <p>- Go to <strong>Preferences > Themes</strong>, view section <strong>"YOUR CURRENT THEME" </strong> and
+                click on <strong>Advanced settings</strong></p>
+            <img src="images/general/advanced_setting.png"/>
+            <p>- And config column as image below so that you can follow the design of theme (you can config
+                differently). <br/>Disable/enable column left and column right for each page.</p>
+            <img src="images/general/setting_column.png"/>
+        </section>
+        <section id="image_size">
+            <h1>Configuring type images and image size</h1>
+            <p class="warning">Image size of your site should be configured as same as guidelines to have the best
+                interface</p>
+            <p>- Go to Preferences > Image, configure "Width" & "Height" as image below:</p>
+            <p>- Image size for Market Shop store</p>
+            <img src="images/imagesize.png"/>
+            <p>- Recreating thumbnails for all existing product images</p>
+            <p class="info">Recreating thumbnails to produce images for your website by the new size of image
+            </p>
+            <img src="images/general/regenerate_thumb.png"/>
+        </section>
+
+        <section id="translation">
+            <h1>Languages and Translation</h1>
+            <p>- Go to Localization > Translations to add (update) and translate language.</p>
+            <p>- View part "MODIFY STRANLATIONS" to translate or modify transitions</p>
+            <img src="images/general/modify_translate.png"/>
+
+            <p>- View section "ADD/UPDATE A LANGUAGE" to add or update language</p>
+            <img src="images/general/add_language.png"/>
+        </section>
+
+        <!-- <section id="mobile_template">
+            <h1>Management for the mobile theme</h1>
+            <p>- Disable theme of mobile in case you want to use responsive theme for mobile.</p>
+            <p>- In back-end, go to <strong>Preferences > Themes</strong> and select as image below.</p>
+            <img src="images/general/disable_mobile_theme.png" />
+        </section>
+         -->
+        <section id='extension'>
+            <h1>Extension</h1>
+            <div class="row">
+                <div class="col-sm-8"><img src="images/general/page-index.png"/></div>
+                <div class="col-sm-4">
+                    <ul>
+                        <li>
+                            <span class="bt-cir"> 1 </span> , <span class="bt-cir">2</span> , <span class="bt-cir">6</span>
+                            <a href="javascrip:void(0)">Cs Theme Cpanel->Tab Header</a>
+                        </li>
+                        <li>
+                            <span class="bt-cir">4</span>
+                            <a href="javascrip:void(0)">Logo</a>
+                        </li>
+                        <li>
+                            <span class="bt-cir">5</span>
+                            <a href="javascrip:void(0)">Search bar</a>
+                        </li>
+                        <li>
+                            <span class="bt-cir">7</span>
+                            <a href="javascrip:void(0)">Menu  Category</a>
+                        </li>
+                        <li>
+                            <span class="bt-cir">8</span>
+                            <a href="javascrip:void(0)">Cs Mega Menu Block</a>
+                        </li>
+                        <li>
+                            <span>9</span>
+                            <a href="javascrip:void(0)"> Cs Blog </a>
+                        </li>
+                        <li>
+                            <span>10</span>
+                            <a href="javascrip:void(0)">Cs Theme Cpanel -> Social</a>
+                        </li>
+                        <li>
+                            <span class="bt-cir">11</span>
+                            <a href="javascrip:void(0)">Cs Layer Slider</a>
+                        </li>
+                        <li>
+                            <span class="bt-cir">12</span>
+                            <a href="javascrip:void(0)">Custom Banner</a>
+                        </li>
+                        <li>
+                            <span class="bt-cir">13</span>
+                            <a href="javascrip:void(0)">CS Product Tab</a>
+                        </li>
+                        <li>
+                            <span class="bt-cir">14</span>
+                            <a href="javascrip:void(0)">Custom Banner Three Column</a>
+                        </li>
+                        <li>
+                            <span class="bt-cir">15</span>
+                            <a href="javascrip:void(0)">CS Category Vertical</a>
+                        </li>
+                        <li>
+                            <span class="bt-cir">16</span>
+                            <a href="javascrip:void(0)">Category Image</a>
+                        </li>
+                        <li>
+                            <span class="bt-cir">17</span>
+                            <a href="javascrip:void(0)">CS Category Tab Feature</a>
+                        </li>
+                        <li>
+                            <span class="bt-cir">18</span>
+                            <a href="javascrip:void(0)">Custom Banner One Column</a>
+                        </li>
+                         <li>
+                            <span class="bt-cir">19</span>
+                            <a href="javascrip:void(0)">CS Category</a>
+                        </li>
+                        <li>
+                            <span class="bt-cir">20</span>
+                            <a href="javascrip:void(0)">Custom Banner Two Column</a>
+                        </li>
+
+                        <li>
+                            <span class="bt-cir">21</span>
+                            <a href="javascrip:void(0)">Manufacturers/brands block</a>
+                        </li>
+
+                        <li>
+                            <span class="bt-cir">22</span>
+                            <a href="javascrip:void(0)">Cs Theme Cpanel -> Footer</a>
+                        </li>
+                        <li>
+                            <span class="bt-cir">23</span>
+                            <a href="javascrip:void(0)">Cs BLog </a>
+                        </li>
+                        <li>
+                            <span class="bt-cir">24</span>
+                            <a href="javascrip:void(0)">Newsletter subscription</a>
+                        </li>
+                         <li>
+                            <span class="bt-cir">25</span>
+                            <a href="javascrip:void(0)">Link List</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="config_module">
+        </section>
+        <section id="cs_configurator">
+            <h1>Management layout</h1>
+            <p>This part will guide you to config changes for layout and some other configuration for theme. Go to
+                "Modules > Modules" and find module <strong>Cs Management</strong></p>
+            <img src="images/general/layout_config.png"/>
+            <ol>
+                <li>
+                    The functions can be configured :
+                    <ul>
+                        <li>Disable/enable menu sticky</li>
+                        <li>Disable/enable scroll to top</li>
+                        <li>Disable/enable Custom Font</li>
+                  <!--       <li>Disable/enable button to quickview</li>
+                        <li>Disable/enable Smooth scroll</li>
+                        <li>Disable/enable Appear animation</li> -->
+                    </ul>
+                    <img src="images/general/layout_function.png"/>
+                </li>
+                <li>
+                    The functions can be configured Header:
+                    <ul>
+                        <li>Disable/enable Contact</li>
+                        <li>Disable/enable Cart</li>
+                        <li>Disable/enable Login</li>
+                        <li>Disable/enable Banner</li>
+                    </ul>
+                    <img src="images/general/layout_header.png"/>
+                </li>
+                 <li>
+                    The functions can be configured Footer:
+                    <ul>
+                        <li>Custom Copright</li>
+                        <li>Disable/enable Payment Icons</li>
+                        <li>....</li>
+                    </ul>
+                    <img src="images/general/layour_footer.png"/>
+                </li>
+               <!--  <li>
+                    Config layouts for page :
+                    <ul>
+                        <li>Boxed or wide mode for PAGE</li>
+                        <li>Config boxed mode width (in case boxed mode for page is actived). Set value at 0 to disable
+                            option and get default width.
+                        </li>
+                        <li>Config layout mode for HEADER (in case wide mode for page is actived).
+                            <ul>
+                                <li>Boxed mode</li>
+                                <li>Wide mode on background only</li>
+                                <li>Wide mode of content and background</li>
+                            </ul>
+                        </li>
+                        <li>Config layout mode for FOOTER (in case wide mode for page is actived)
+                            <ul>
+                                <li>Boxed mode</li>
+                                <li>Wide mode</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <img src="images/general/layout_mode.png"/>
+                </li> -->
+                <li>
+                    Config category page :
+                    <ul>
+                        <li>Config number of products on a line for category page (number 1)</li>
+                        <li>Disable/enable list of grid icon (number 2)</li>
+                        <li>Config default display as list or grid (number 3)</li>
+                        <li>Disable/enable : sub category, slider for sub category, image category, description of
+                            category (number 4, 5, 6, 7)
+                        </li>
+                        <li>Config image for sub category items : In page category, list of sub categories displays
+                            image of sub categories or product image of this sup categories (number 8)
+                        </li>
+                        <li>Config name of category in product block: Display or hide category name in product block.
+                        </li>
+                    </ul>
+                    <img src="images/general/layout_category.png"/>
+                </li>
+                <li>
+                    Config product page :
+                    <ul>
+                        <li>Config product information template: accordion or row (none-accordion)</li>
+                    </ul>
+                    <img src="images/general/layout_product.png"/>
+                </li>
+            </ol>
+        </section>
+
+        <section id="cs_product_tab">
+            <h1>CS Product Tab</h1>
+            <img src="images/module/cs-product-tab.png"/>
+            <p>- In back-end, go to Modules > Modules and find module "CS Product Tab"</p>
+            <img src="images/module/cs-product-tab-config.png"/>
+            <p>- The module has many options to change display.</p>
+            <ul>
+                <li>Column : Column want display </li>
+                <li>Title Tab : The title want show at font end </li>
+                <li>Product Number : the number of products to be displayed in this block.</li>
+                <li>Display Tab : Choose no to hiden Tab </li>
+                <li>Style  : grid , list , slider</li>
+            </ul>
+            <p>- Module display in frontend</p>
+            <img src="images/module/cs-product-tab-fontend.png"/>
+        </section>
+
+        <section id="cs_product_feature">
+            <h1>CS Product Feature</h1>
+            <img src="images/module/cs-product-feature.png"/>
+            <p>- In back-end, go to Modules > Modules and find module " CS Product Feature "</p>
+            <img src="images/module/cs-product-feature-config-1.png"/>
+            <p>- The module has many options to change display.</p>
+            <ul>
+                <li>enable : Add , Edit , Delete the block product </li>
+                <li>Title  : The title want show in Page </li>
+                <li>Column : Column want display  </li>
+                <li>Products to display : the number of products to be displayed in this block.</li>
+                <li>Hook : position display (ex: displayHome, displayleftcolumn,...)</li>
+                <li>Group : Style product want display </li>
+                <li>Style  : grid , list , slider</li>
+            </ul>
+            <img src="images/module/cs-product-feature-config-2.png"/>
+            <p>- Module display in frontend</p>
+            <img src="images/module/cs-product-feature-fontend.png"/>
+        </section>
+         <section id="cs_category">
+            <h1>CS Category</h1>
+            <img src="images/module/cs-category.png"/>
+            <p>- In back-end, go to Modules > Modules and find module " CS Product Feature "</p>
+            <img src="images/module/cs-category-config-1.png"/>
+            <p>- The module has many options to change display.</p>
+            <ul>
+                <li>enable : Add , Edit , Delete the block product </li>
+                <li>Title  : The title want show in Page </li>
+                <li>Column : Column want display  </li>
+                <li>Products to display : the number of products to be displayed in this block.</li>
+                <li>Hook : position display (ex: displayHome, displayleftcolumn,...)</li>
+                <li>Group : Style product want display </li>
+                <li>Style  : grid , list , slider</li>
+            </ul>
+            <img src="images/module/cs-category-config-2.png"/>
+            <p>- Module display in frontend</p>
+            <img src="images/module/cs-category-fontend.png"/>
+        </section>
+
+        <section id="manage_blog">
+            <h1>Management Blog (module Cs Blog)</h1>
+            <div class="info">
+                Module CSBlog : provide functions to manage post, category (for post), and the block displays content
+                related with post.
+            </div>
+            <p>- In back-end, blog menus are displayed after this module is installed.</p>
+            <img src="images/general/blog_menu.png"/>
+            <p>- Module allows you :</p>
+            <ul>
+                <li><a href="#manage_category">Create blog category</a></li>
+                <li><a href="#manage_post">Create blog post</a></li>
+                <li><a href="#manage_tag">Manage blog tag and blog comment</a></li>
+                <li><a href="#config_blog">Config blog option</a></li>
+            </ul>
+        </section>
+
+        <section id="manage_category">
+            <h1>Create blog category</h1>
+            <p>- In back-end go to "Cs Blog > Blog Category" to view the screen of main managemant for the blog
+                category.</p>
+            <img src="images/general/manage_category_screen_main.png"/>
+            <p>- Create blog category item : Click <strong>icon add new blog category</strong> on the screen of main
+                management for the blog category and then view the interface of creating blog category. Enter
+                information for blog category.</p>
+            <ul>
+                <li>Name : Name of blog category (not leave it empty)</li>
+                <li>Displayed : Disable/enable category display in frontend</li>
+                <li>Catergory Parent : Choose category parent</li>
+                <li>Allow comment : Disable/enable comment function of post item in this category</li>
+                <li>Description : Description of category</li>
+                <li>Image : Image for category</li>
+                <li>Meta title : Public title for the category's page, and for search engines.</li>
+                <li>Meta description : This description will appear in search engines.</li>
+                <li>Meta keywords : Keyword will appear in search engines</li>
+                <li>Friendly URL : This is the human-readable URL, as generated from the category's name. You can change
+                    it if you want.
+                </li>
+            </ul>
+            <img src="images/general/manage_category_create.png"/>
+        </section>
+
+        <section id="manage_post">
+            <h1>Create blog post</h1>
+            <p>- In back-end go to "Cs Blog > Blog Post" and then view the screen of main management for the blog
+                post.</p>
+            <img src="images/general/manage_post_screen_main.png"/>
+            <p>- Create blog post item : Click <strong>icon add new blog post</strong> on the screen of main management
+                for the blog post and then view the interface of creating blog category. Enter information for blog
+                post.</p>
+            <ul>
+                <li>Title : Title for post (not leave it empty)</li>
+                <li>Categories : choose categories for post</li>
+                <li>Displayed : Disable/enable post display in frontend</li>
+                <li>Description short : Description short for post</li>
+                <li>Description : Description of post</li>
+                <li>Allow comment : Disable/enable comment function of post</li>
+                <li>Author : Select author of post</li>
+                <li>Image : Image for post</li>
+                <li>Related Posts : config related posts for post</li>
+                <li>Related Products : config related products for post</li>
+                <li>Tags : add tags for post. One post can contain many tags.</li>
+                <li>Meta title : Public title for the post's page, and for search engines.</li>
+                <li>Meta description : This description will appear in search engines.</li>
+                <li>Meta keywords : Keyword will appear in search engines</li>
+                <li>Friendly URL : This is the human-readable URL, as generated from the post's name. You can change it
+                    if you want.
+                </li>
+            </ul>
+            <img src="images/general/manage_post_create.png"/>
+        </section>
+
+        <section id="manage_tag">
+            <h1>Manage blog tag and blog comment</h1>
+            <h4>1. Blog tag</h4>
+            <p>- In back-end go to "Cs Blog > Blog Tag" to view the screen of main management for the blog tag.</p>
+            <img src="images/general/manage_tag_screen_main.png"/>
+            <p>- Create blog post item : Click <strong>icon add new blog tag</strong> on the screen of main management
+                for the blog tag and then view the interface of creating blog tag. Enter information for blog tag.</p>
+            <ul>
+                <li>Name : Enter tag name</li>
+                <li>Language : Select language for tag</li>
+                <li>Post : Select posts item contain this tag</li>
+            </ul>
+            <img src="images/general/manage_tag_create.png"/>
+
+            <h4>2. Blog comment</h4>
+            <p>- In back-end go to "Cs Blog > Blog Comment" and then view the screen of main management for the blog
+                comment. This screen is to view all comments for blog post.</p>
+
+        </section>
+
+        <section id="config_blog">
+            <h1>Config blog option</h1>
+            <p>- In back-end, go to Modules > Modules and find module "CS Blog"</p>
+            <img src="images/general/blog_config.png"/>
+            <p>- Interface of module in back0end, this module can be configured : </p>
+            <ul>
+                <li>Tab General Setting : config main link for blog</li>
+                <li>Tab Page Blog List : config options for page blog of category</li>
+                <li>Tab Page Blog Detail : config option for page blog of post</li>
+                <li>Tab Image Setting : config image size for post and category</li>
+                <li>Tab Hook : Get Content to display in each hook</li>
+            </ul>
+            <img src="images/general/blog_interface_backend.png"/>
+        </section>
+        <p>- Module displays in frontend</p>
+        <p>- Page of category blog in blog system</p>
+        <img src="images/cs_blog.png"/>
+        <p>- Page of detail post blog in blog system</p>
+        <img src="images/cs_blog_2.png"/>
+        <!-- <p>- The blog blocks in blog system</p>
+        <img src="images/cs_blog_3.png" /> -->
+
+        <section id="cs_megamenu">
+            <h1>Manage Module Megamenu</h1>
+            <div class="info">
+                This module displays megamenu in frontend. It enables you to config menu with <strong>multi row, multi
+                column</strong>. Content in each column can be one of following types:
+                <ul>
+                    <li>Category content : Columns in dropdown display <strong>tree categories</strong> which are
+                        configed
+                    </li>
+                    <li>Product content : Columns in dropdown display <strong>list products</strong> which are configed
+                    </li>
+                    <li>Static content : Columns in dropdown display <strong>static content (html content)</strong></li>
+                    <li>Manufacturer content : Columns in dropdown display <strong>list manufacture</strong></li>
+                    <li>Information content : Columns in dropdown display <strong>list link cms</strong></li>
+                </ul>
+            </div>
+            <p>- In back-end, go to Modules > Modules and find module "Cs Mega Menu Block "</p>
+            <img src="images/general/cs_megamenu_config.png"/>
+            <div>- Interface of module in back-end, the main screen of module displays :
+                <ol>
+                    <li>Icon add new menu item</li>
+                    <li>List of menu items</li>
+                    <li>Form configuration for menu displayed in device (ipad)</li>
+                </ol>
+            </div>
+            <img src="images/general/cs_megamenu_interface_backend.png"/>
+            <p>- Megamenu displays in frontend</p>
+            <p> + In PC</p>
+            <img src="images/megamenu_a.png"/>
+            <p> + In Ipad</p>
+            <img src="images/megamenu_c.png"/>
+            <p> + In Mobile</p>
+            <img src="images/megamenu_b.png"/>
+        </section>
+        <section id="create_menu">
+            <div class="info">- To config megamenu (Module Cs Megamenu) by 4 steps:
+                <ol>
+                    <li>Creating menus parent - creating menus item</li>
+                    <li>Creating dropdowns for each menu item - creating row item</li>
+                    <li>Creating content for dropdown - creating column item</li>
+                    <li>Config display of module on ipad device</li>
+                </ol>
+            </div>
+            <h2>1. Creating menus parent - creating menus item</h2>
+            <p>- Click on <strong>icon add new menu item</strong> from the main screen of module and then view the
+                interface of creating new menu item.</p>
+            <p>- The interface of creating new menu item. Information is required to enter for menu item.</p>
+            <ul>
+                <li>Title : name to display for menu item (not leave it empty)</li>
+                <li>Link of title : link to menu item</li>
+                <li>Icon : select icon for menu item</li>
+                <li>Label text : add label text for menu item . EX : hot, new, sale, ...</li>
+                <li>Label color background: set background color for label</li>
+                <li>Columns of dropdown : select column for menu item from 5 to 1</li>
+            </ul>
+            <img src="images/general/cs_megamenu_create_menu_item.png"/>
+            <p>- Click on <strong>Save</strong> to create menu item</p>
+        </section>
+
+        <section id="create_row">
+            <h2>2. Creating dropdowns for each menu item - creating row items</h2>
+            <p class="warning">- Can only create row items after created menu item. <br/>
+                - With each menu item can have many row items
+            </p>
+            <p>- Form list of menu item, click on button <strong>View detail</strong> to create dropdown for menu item
+                that you want to add dropdown </p>
+            <img src="images/general/cs_megamenu_view_detail.png"/>
+            <p>- Then, click on button <strong>Add row</strong> to view the interface of adding new row</p>
+            <img src="images/general/cs_megamenu_add_row.png"/>
+            <p>- In that interface, enter information for row item</p>
+            <ul>
+                <li>Height : Setting height for row item. Using height row incase, you want to set background or fixed
+                    height for row item. Set value at 0 or leave it empty to set "auto" for height.
+                </li>
+                <li>Background color : Setting background color for row item</li>
+                <li>Background image : Setting background image for row item</li>
+            </ul>
+            <img src="images/general/cs_megamenu_row_infor.png"/>
+            <p>- Click on <strong>Save</strong> to create row item</p>
+        </section>
+
+        <section id="create_column">
+            <h2>3. Creating content for dropdown - creating column item</h2>
+            <p class="warning">- Only can create column items after creating row item. <br/>
+                - Each row item can have many column items.
+            </p>
+            <p>- Form list of menu item, click on button <strong>View detail</strong> to create dropdown for menu item
+                that you want to add dropdown </p>
+            <p>- Then, click on button <strong>Add column for row</strong> and view the interface of adding new column
+            </p>
+            <img src="images/general/cs_megamenu_add_column.png"/>
+            <p>- In that interface, enter information for column item and for column:</p>
+            <ul>
+                <li>Number of columns : Setting number for column from 1 to 5.</li>
+                <li>Tyle of column : Select content for column, you can select :
+                    <ol>
+                        <li>category</li>
+                        <li>product</li>
+                        <li>static block</li>
+                        <li>manufacture</li>
+                        <li>information</li>
+                    </ol>
+                </li>
+                <li>Part content config for each type column : With each column type, it will have content config
+                    different.
+                </li>
+            </ul>
+            <img src="images/general/cs_megamenu_column_infor.png"/>
+            <p>- Click <strong>Save</strong> to create row item</p>
+        </section>
+
+        <section id="config_device">
+            <h2>4. Config display of module on ipad device</h2>
+            <p>Config number of items displayed on ipad horizontal and ipad vertical</p>
+            <img src="images/general/cs_megamenu_config_device.png"/>
+        </section>
+
+        <section id="cs_layer">
+            <h1>Manage main slideshow</h1>
+            <h2>Config main slideshow on home page</h2>
+            <hr class="notop">
+            <div class="info"> The Module Csslider uses plugin layerslider jquery. More details at: <a
+                    href="http://kreaturamedia.com/layerslider-responsive-jquery-slider-plugin">http://kreaturamedia.com/layerslider-responsive-jquery-slider-plugin</a>
+            </div>
+            <p>-In your front-end, preview main slidehsow.</p>
+            <img src="images/slideshow.png" style="max-width:100%"/>
+            <div class="info">Module CS slider</div>
+            <p>-In your backoffice, go to Modules &gt; Modules &gt; Other modules &gt; <strong> CS Slider </strong>&gt;
+                Configure.</p>
+            <img src="images/general/slideshow_config.png" style="max-width:100%"/>
+            <p>-Add slides</p>
+            <img src="images/general/slideshow_add.png" style="max-width:100%"/>
+            <p>-List of the available slider options</p>
+            <div class="info">LayerSlider has several options to customize your sliders. These options can be defined by
+                passing an object with your changed values. Please hover on the title for more details
+            </div>
+            <img src="images/slideshow_options.png"/>
+            <p>-Edit slide</p>
+            <img src="images/general/slider_enter_info.png" style="max-width:100%"/>
+            <p>-Add / Edit layer for slide</p>
+            <div class="info">Layers are contents of slides. Unlike conventional slider plugins, you can use multiple
+                contents in a slide. These can be <strong>Images</strong>, <strong>Text</strong>, <strong>Custom
+                    HTML</strong>, <strong>Video and audio</strong> contents.
+            </div>
+            <img src="images/general/slideshow_b.png" style="max-width:100%"/>
+            <p>-Layer GENERAL</p>
+            <img src="images/general/layer_general.png" style="max-width:100%"/>
+            <p>
+                <strong>DeplayIn: </strong>
+                <span>Delays the layer transitions with the specified amount of time in milliseconds.</span>
+            </p>
+            <p>-Layer TRANSITIONS</p>
+            <div class="info">Please hover on the title for more details</div>
+            <img src="images/general/layer_transitions.png" style="max-width:100%"/>
+        </section>
+
+        <section id="theme_support">
+            <h1>Theme support</h1>
+            <p>- If our theme has any problem, please please contact us via <a href="https://babithemes.freshdesk.com/">https://babithemes.freshdesk.com</a> to be the best support.
+            </p>
+            <p>- When you contact us, please send us order id, ftp account, admin account so that we can check your
+                issue. </p>
+            <p>Regards!</p>
+        </section>
+    </div>
+</div>
+</body>
+</html>

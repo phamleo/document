@@ -1,6 +1,6 @@
-﻿Presthemes Chirstmas PrestaShop Theme
-by Presthemes
-Version Prestashop: 1.6.x
+BabiThemes PrestaShop
+by babithemes
+Version Prestashop: 1.7.x
 
 --------------------------------
 INSTALLATION
@@ -11,10 +11,6 @@ INSTALLATION
 	- Go to Preferences > Image, click "Generate thumbnails" to generate thumbnails
 	- Go to Advanced Parameters > Performance, click "Clear cache" on the toolbar to  Clear Smarty cache
 	- Refesh your front-end. Installation finished.
-
---------------------------------	
-THEME AND MODULES CONFIGURATION
-	- Please read the full documentation here http://presthemes.com/manual/cmchristmas/
 
 --------------------------------	
 SUPPORT
